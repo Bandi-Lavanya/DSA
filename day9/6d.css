@@ -1,0 +1,11 @@
+.underline {
+    display: inline-block;
+    border-bottom: 2px solid black; 
+    
+}
+div{
+    background: linear-gradient(to bottom, rgb(242, 240, 240), rgb(194, 194, 185));
+    padding: 10px 10px 10px 10px;
+    width:300px;
+    text-align: center;
+}

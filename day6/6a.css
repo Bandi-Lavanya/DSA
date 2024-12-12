@@ -1,0 +1,23 @@
+.p1{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px; /* Controls vertical space between lines */
+    margin-bottom: 2px;
+   }
+   .p2{
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 16px;
+    color: #606060;
+   }
+   .p3 {
+    font-size: 14px;
+    color: #606060;
+   }
+   .p4{
+    font-size: 14px;
+    color: #606060;
+    line-height: 20px;
+    margin-bottom: 0;
+   }
+ 

@@ -1,0 +1,10 @@
+div{
+    background-color: #3498db;
+    box-shadow: 10px 10px 12px 8px #133145, 5px 5px 12px 8px #133145;
+    width: 100px;
+    height: 50px;
+    padding: 40px;
+    margin:20px;
+    border-radius: 15px;
+    font-weight:bolder;
+}

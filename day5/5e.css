@@ -1,0 +1,14 @@
+.card{
+    padding:20px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+    transition: box-shadow 0.3s ease;
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+    background-image: linear-gradient(140deg, #EADEDB 0%, #BC70A4 50%, #BFD641 75%); ;
+}
+.card:hover{
+    box-shadow: 10px 10px 10px rgb(241, 160, 240), -5px -5px 10px rgb(234, 161, 232) ;
+}
