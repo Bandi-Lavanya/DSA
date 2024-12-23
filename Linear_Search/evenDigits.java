@@ -2,7 +2,7 @@
 
 public class evenDigits{
     public static void main(String[] args){
-        int[] nums={ 123, 12 ,34 ,999, 1254, 67 ,9, -1234};
+        int[] nums={123, 12 ,34 ,999, 1254, 67 ,9, -1234,14};
         int ans= FindNumbers(nums);
         System.out.println(ans);
 

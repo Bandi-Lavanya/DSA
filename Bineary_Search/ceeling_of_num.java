@@ -9,13 +9,14 @@ public class ceeling_of_num{
         System.out.println(ans);
     }
     static int bsearch(int[] arr , int target){
+        //if the target is greater than thr greatest number in the array
+        if(target>arr[arr.length-1]){
+                return -1;
+            }
         int start=0;
         int end=arr.length -1;
         while(start <= end){
-            //if the target is greater than thr greatest number in the array
-            if(target>arr[arr.length-1]){
-                return -1;
-            }
+            
             //int middle=(start+end)/2; (start+end) might exceed the range of int in Java
             int mid=start+ (end-start)/2;
             if(target < arr[mid]){
@@ -25,9 +26,9 @@ public class ceeling_of_num{
                 start= mid + 1;
             }
             else{
-                return mid;
+                return arr[mid];
             }
         }
-        return start;// just by replacing the -1 with start , we get the ceeling of a number.
+        return arr[start];// just by replacing the -1 with start , we get the ceeling of a number.
     }
 }
